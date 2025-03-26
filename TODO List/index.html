@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>TODO List</title>
+   <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+   <div class="wripper">
+      <header class="header">
+         <div class="header__container">
+            <section class="header__content">
+               <div class="header-logo-text">
+                  <a href="#">TODO</a>
+               </div>
+               <div class="header-link">
+                  <a href="#" class="header_link-item">Регистрация</a>
+                  <a href="#" class="header_link-item">Вход</a>
+               </div>
+            </section>
+         </div>
+      </header>
+      <main class="main">
+         <section class="todo">
+            <div class="todo__container">
+               <div class="todo__content">
+                  <section class="todo-header">
+                     <div class="todo-header_container">
+                        <form  class="todo-header-form">
+                           <input type="text" placeholder="Ввидите новую заметку" id="header-inputText" class="header-inputText">
+                           <input type="submit" value="Создать" class="header-inputButton">
+                        </form>
+                     </div>
+                  </section>
+                  <section class="todo-main">
+                     <div class="todo-main_container">
+                        <form class="todo-main-form">
+                           <p>Мои заметки</p>
+                           <!-- <hr>
+                           <div class="todo-main-form-list">
+                              <label for="" class="todo-main-label">
+                                 Lorem ipsum dolor sit amet consectetur adipisicing
+                                 elit.
+                              </label>
+                              <div class="main-form__button">
+                                 <input type="submit" value="✔" data-action="done" class="complete-point">
+                                 <input type="submit" value="✖" data-action="delete" class="delete-point">
+                              </div>
+                           </div> -->
+                        </form>
+                     </div>
+                  </section>
+                  <div class="todo-list"></div>
+                  <div class="todo-button"></div>
+               </div>
+            </div>
+         </section>
+      </main>
+      <footer class="footer">
+
+      </footer>
+   </div>
+   <script src="JS/script.js"></script>
+</body>
+
+</html>
